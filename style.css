@@ -29,7 +29,25 @@ section {
     top: 40px;
   }
 
-  #menu {
+  #menu, #aboutUs {
     height: fit-content;
+  }
+
+  #menu {
     padding-top: 5rem;
   }
+
+  #aboutUs {
+    padding-top: 7rem;
+  }
+
+  #carouselExample {
+    max-width: 750px;
+    margin: 0 auto;
+  }
+  
+  .carousel-img {
+    height: 500px;
+    width: auto;
+  }
+  
