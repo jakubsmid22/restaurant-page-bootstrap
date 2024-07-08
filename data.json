@@ -3,54 +3,64 @@
         {
             "header": "Caprese Salát",
             "description": "Čerstvá rajčata, mozzarella a bazalka s balsamikovým redukcí a olivovým olejem.",
-            "img": "https://img.freepik.com/free-photo/italian-caprese-salad-with-tomatoes-basil-mozzarella-olives-olive-oil-wooden-board-italian-traditional-caprese-salad-ingredients-mediterranean-organic-natural-food-concept_1150-44847.jpg?t=st=1720432041~exp=1720435641~hmac=08fc565dcff18b88d3fc934be5e95b84d5f109e78c6b909523aa13f1f2b120cd&w=1380"
+            "img": "https://img.freepik.com/free-photo/italian-caprese-salad-with-tomatoes-basil-mozzarella-olives-olive-oil-wooden-board-italian-traditional-caprese-salad-ingredients-mediterranean-organic-natural-food-concept_1150-44847.jpg?t=st=1720432041~exp=1720435641~hmac=08fc565dcff18b88d3fc934be5e95b84d5f109e78c6b909523aa13f1f2b120cd&w=1380",
+            "price": 120
         },
         {
             "header": "Bruschetta",
             "description": "Grilovaný chléb s rajčaty, česnekem, bazalkou a olivovým olejem.",
-            "img": "https://img.freepik.com/free-photo/tasty-bruschetta-with-tomatoes-basil_1220-7130.jpg?t=st=1720432282~exp=1720435882~hmac=9fe9b54bd64a717898151f33acbfcd03e80791b729a57d1d72033b93fbf784f3&w=1380"
+            "img": "https://img.freepik.com/free-photo/tasty-bruschetta-with-tomatoes-basil_1220-7130.jpg?t=st=1720432282~exp=1720435882~hmac=9fe9b54bd64a717898151f33acbfcd03e80791b729a57d1d72033b93fbf784f3&w=1380",
+            "price": 95
         },
         {
             "header": "Krevety na česneku",
             "description": "Restované krevety s česnekem, bílým vínem a citronovou šťávou.",
-            "img": "https://img.freepik.com/free-photo/fried-pawns-with-green-herbs-inside-red-pan_114579-3313.jpg?t=st=1720432337~exp=1720435937~hmac=9ec12a13cee55993bec40b8ca3bebceef2a79f8b8ea4c337006efe308f2b740d&w=1380"
+            "img": "https://img.freepik.com/free-photo/fried-pawns-with-green-herbs-inside-red-pan_114579-3313.jpg?t=st=1720432337~exp=1720435937~hmac=9ec12a13cee55993bec40b8ca3bebceef2a79f8b8ea4c337006efe308f2b740d&w=1380",
+            "price": 180
         },
         {
             "header": "Prosciutto s melounem",
             "description": "Plátky prosciutta podávané s čerstvým melounem a rukolou.",
-            "img": "https://img.freepik.com/free-photo/delicious-snacks-wooden-board_144627-43460.jpg?t=st=1720432402~exp=1720436002~hmac=d28de71eb43ed03553e27b1c62ba750a5bfbc0ec42a76e8d49b30869fedd9271&w=1380"
+            "img": "https://img.freepik.com/free-photo/delicious-snacks-wooden-board_144627-43460.jpg?t=st=1720432402~exp=1720436002~hmac=d28de71eb43ed03553e27b1c62ba750a5bfbc0ec42a76e8d49b30869fedd9271&w=1380",
+            "price": 150
         },
         {
             "header": "Carpaccio z hovězí svíčkové",
             "description": "Tenké plátky hovězí svíčkové s parmezánem, rukolou a citronovým dresinkem.",
-            "img": "https://img.freepik.com/free-photo/beef-carpaccio-with-parmesan-arugula-olives_140725-222.jpg?t=st=1720432423~exp=1720436023~hmac=ca40e53be91b6fdaf2ecdbc2e8b7888aceb30d196cd5282b1b87fe6b14fb59e4&w=1380"
+            "img": "https://img.freepik.com/free-photo/beef-carpaccio-with-parmesan-arugula-olives_140725-222.jpg?t=st=1720432423~exp=1720436023~hmac=ca40e53be91b6fdaf2ecdbc2e8b7888aceb30d196cd5282b1b87fe6b14fb59e4&w=1380",
+            "price": 165
         }
     ],
     "breakfast": [
         {
-            "header": "Caprese Salát",
-            "description": "Čerstvá rajčata, mozzarella a bazalka s balsamikovým redukcí a olivovým olejem.",
-            "img": "https://img.freepik.com/free-photo/italian-caprese-salad-with-tomatoes-basil-mozzarella-olives-olive-oil-wooden-board-italian-traditional-caprese-salad-ingredients-mediterranean-organic-natural-food-concept_1150-44847.jpg?t=st=1720432041~exp=1720435641~hmac=08fc565dcff18b88d3fc934be5e95b84d5f109e78c6b909523aa13f1f2b120cd&w=1380"
+            "header": "Avokádový Toast",
+            "description": "Toast s čerstvým avokádem, citronovou šťávou, chilli vločkami a rukolou.",
+            "img": "https://img.freepik.com/free-photo/avocado-open-toast-with-avocado-slices-lemon-flax-seeds-sesame-seeds-black-bread-slices-top-view_2831-797.jpg?t=st=1720435726~exp=1720439326~hmac=1b53a1ca840b76c4dfd7d8cf77d7a4b3abc3fa7268e07b7ae0b9a9879c347dd3&w=1380",
+            "price": 110
         },
         {
-            "header": "Bruschetta",
-            "description": "Grilovaný chléb s rajčaty, česnekem, bazalkou a olivovým olejem.",
-            "img": "https://img.freepik.com/free-photo/tasty-bruschetta-with-tomatoes-basil_1220-7130.jpg?t=st=1720432282~exp=1720435882~hmac=9fe9b54bd64a717898151f33acbfcd03e80791b729a57d1d72033b93fbf784f3&w=1380"
+            "header": "Francouzské Toasty",
+            "description": "Smažené toasty s javorovým sirupem, čerstvým ovocem a šlehačkou.",
+            "img": "https://img.freepik.com/free-photo/french-toast-with-caramelized-apples-breakfast_2829-10333.jpg?t=st=1720435761~exp=1720439361~hmac=5e73baf931e656f69777b132c39add4cb43645f77633d593c9b5c91769f175b1&w=1380",
+            "price": 125
         },
         {
-            "header": "Krevety na česneku",
-            "description": "Restované krevety s česnekem, bílým vínem a citronovou šťávou.",
-            "img": "https://img.freepik.com/free-photo/fried-pawns-with-green-herbs-inside-red-pan_114579-3313.jpg?t=st=1720432337~exp=1720435937~hmac=9ec12a13cee55993bec40b8ca3bebceef2a79f8b8ea4c337006efe308f2b740d&w=1380"
+            "header": "Omeleta se špenátem a sýrem",
+            "description": "Nadýchaná omeleta plněná čerstvým špenátem a roztaveným sýrem.",
+            "img": "https://img.freepik.com/free-photo/omelette-with-asparagus-tomato-breakfast-wooden-table_2829-16936.jpg?t=st=1720435789~exp=1720439389~hmac=7f3ff65a34dcc30d13d24bdda0dd8232fd54f96668f82214c06c422d1a59e64a&w=1380",
+            "price": 95
         },
         {
-            "header": "Prosciutto s melounem",
-            "description": "Plátky prosciutta podávané s čerstvým melounem a rukolou.",
-            "img": "https://img.freepik.com/free-photo/delicious-snacks-wooden-board_144627-43460.jpg?t=st=1720432402~exp=1720436002~hmac=d28de71eb43ed03553e27b1c62ba750a5bfbc0ec42a76e8d49b30869fedd9271&w=1380"
+            "header": "Míchaná vejce s avokádem",
+            "description": "Míchaná vejce podávaná s plátky avokáda a čerstvým chlebem.",
+            "img": "https://img.freepik.com/premium-photo/scrambled-eggs-with-cherry-tomatoes-avocado_1029377-4540.jpg?w=1380",
+            "price": 85
         },
         {
-            "header": "Carpaccio z hovězí svíčkové",
-            "description": "Tenké plátky hovězí svíčkové s parmezánem, rukolou a citronovým dresinkem.",
-            "img": "https://img.freepik.com/free-photo/beef-carpaccio-with-parmesan-arugula-olives_140725-222.jpg?t=st=1720432423~exp=1720436023~hmac=ca40e53be91b6fdaf2ecdbc2e8b7888aceb30d196cd5282b1b87fe6b14fb59e4&w=1380"
+            "header": "Palačinky s javorovým sirupem",
+            "description": "Nadýchané palačinky s javorovým sirupem a máslem.",
+            "img": "https://img.freepik.com/free-photo/delicious-pancakes-with-bananas_23-2150830494.jpg?t=st=1720437005~exp=1720440605~hmac=3f460139426154c0f4727985b847568a1e9695ead560565003c44d98f76dea75&w=1380",
+            "price": 80
         }
     ]
 }

@@ -1,5 +1,7 @@
 const navLinks = document.querySelectorAll(".nav-link");
 const coursesHTML = document.getElementById("courses");
+const startersBtn = document.getElementById("startersBtn");
+const breakfastBtn = document.getElementById("breakfastBtn");
 let menuItems = {};
 
 navLinks.forEach(link => {
@@ -20,16 +22,15 @@ const getData = () => {
 const displayMenu = (course) => {
     coursesHTML.innerHTML = "";
     const courses = Object.values(course);
-    console.log(courses);
 
     courses.forEach(course => {
-        console.log(course);
         const cardCol = document.createElement("div");
         cardCol.classList = ("col-lg d-flex justify-content-center align-items-center mb-5")
         
         const card = document.createElement("div");
         card.classList.add("card");
         card.style.width = "18rem";
+        card.style.width = "20rem";
     
         const cardImg = document.createElement("img");
         cardImg.classList.add("card-img-top");
@@ -49,6 +50,11 @@ const displayMenu = (course) => {
         cardText.textContent = course.description;
         cardBody.append(cardText);
 
+        const price = document.createElement("h6");
+        price.classList.add("card-text");
+        price.textContent = course.price + " Kč";
+        cardBody.append(price);
+
         card.append(cardBody);
 
         cardCol.append(card);
@@ -58,6 +64,18 @@ const displayMenu = (course) => {
 
 
 }
+
+startersBtn.addEventListener("click", () => {
+    getData().then(() => {
+        displayMenu(menuItems.starters)
+    });
+});
+
+breakfastBtn.addEventListener("click", () => {
+    getData().then(() => {
+        displayMenu(menuItems.breakfast)
+    });
+})
 
 getData().then(() => {
     displayMenu(menuItems.starters)
