@@ -25,5 +25,32 @@
             "description": "Tenké plátky hovězí svíčkové s parmezánem, rukolou a citronovým dresinkem.",
             "img": "https://img.freepik.com/free-photo/beef-carpaccio-with-parmesan-arugula-olives_140725-222.jpg?t=st=1720432423~exp=1720436023~hmac=ca40e53be91b6fdaf2ecdbc2e8b7888aceb30d196cd5282b1b87fe6b14fb59e4&w=1380"
         }
+    ],
+    "breakfast": [
+        {
+            "header": "Caprese Salát",
+            "description": "Čerstvá rajčata, mozzarella a bazalka s balsamikovým redukcí a olivovým olejem.",
+            "img": "https://img.freepik.com/free-photo/italian-caprese-salad-with-tomatoes-basil-mozzarella-olives-olive-oil-wooden-board-italian-traditional-caprese-salad-ingredients-mediterranean-organic-natural-food-concept_1150-44847.jpg?t=st=1720432041~exp=1720435641~hmac=08fc565dcff18b88d3fc934be5e95b84d5f109e78c6b909523aa13f1f2b120cd&w=1380"
+        },
+        {
+            "header": "Bruschetta",
+            "description": "Grilovaný chléb s rajčaty, česnekem, bazalkou a olivovým olejem.",
+            "img": "https://img.freepik.com/free-photo/tasty-bruschetta-with-tomatoes-basil_1220-7130.jpg?t=st=1720432282~exp=1720435882~hmac=9fe9b54bd64a717898151f33acbfcd03e80791b729a57d1d72033b93fbf784f3&w=1380"
+        },
+        {
+            "header": "Krevety na česneku",
+            "description": "Restované krevety s česnekem, bílým vínem a citronovou šťávou.",
+            "img": "https://img.freepik.com/free-photo/fried-pawns-with-green-herbs-inside-red-pan_114579-3313.jpg?t=st=1720432337~exp=1720435937~hmac=9ec12a13cee55993bec40b8ca3bebceef2a79f8b8ea4c337006efe308f2b740d&w=1380"
+        },
+        {
+            "header": "Prosciutto s melounem",
+            "description": "Plátky prosciutta podávané s čerstvým melounem a rukolou.",
+            "img": "https://img.freepik.com/free-photo/delicious-snacks-wooden-board_144627-43460.jpg?t=st=1720432402~exp=1720436002~hmac=d28de71eb43ed03553e27b1c62ba750a5bfbc0ec42a76e8d49b30869fedd9271&w=1380"
+        },
+        {
+            "header": "Carpaccio z hovězí svíčkové",
+            "description": "Tenké plátky hovězí svíčkové s parmezánem, rukolou a citronovým dresinkem.",
+            "img": "https://img.freepik.com/free-photo/beef-carpaccio-with-parmesan-arugula-olives_140725-222.jpg?t=st=1720432423~exp=1720436023~hmac=ca40e53be91b6fdaf2ecdbc2e8b7888aceb30d196cd5282b1b87fe6b14fb59e4&w=1380"
+        }
     ]
 }
