@@ -1,7 +1,6 @@
 section {
     height: 100vh;
     position: relative;
-    overflow-x: unset;
   }
 
 
@@ -28,4 +27,9 @@ section {
     left: 100px;
     right: 0;
     top: 40px;
+  }
+
+  #menu {
+    height: fit-content;
+    padding-top: 5rem;
   }

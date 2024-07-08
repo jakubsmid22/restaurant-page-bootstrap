@@ -4,6 +4,7 @@ const startersBtn = document.getElementById("startersBtn");
 const breakfastBtn = document.getElementById("breakfastBtn");
 const lunchBtn = document.getElementById("lunchBtn");
 const dinnerBtn = document.getElementById("dinnerBtn");
+const form = document.querySelector("form");
 let menuItems = {};
 
 navLinks.forEach(link => {
@@ -110,3 +111,14 @@ dinnerBtn.addEventListener("click", () => {
 getData().then(() => {
     displayMenu(menuItems.starters)
 });
+
+form.addEventListener("submit", (e) => {
+    e.preventDefault();
+
+    if (!form.checkValidity()) {
+        e.preventDefault()
+        e.stopPropagation()
+      }
+
+      form.classList.add('was-validated')
+})
