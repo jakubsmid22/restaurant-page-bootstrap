@@ -39,6 +39,7 @@ section {
 
   #aboutUs {
     padding-top: 7rem;
+    padding-bottom: 3rem;
   }
 
   #carouselExample {
@@ -51,3 +52,7 @@ section {
     width: auto;
   }
   
+  .chef-img {
+    height: 60% !important;
+    object-fit: cover;
+  }
