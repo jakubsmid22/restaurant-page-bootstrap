@@ -3,6 +3,7 @@ const coursesHTML = document.getElementById("courses");
 const startersBtn = document.getElementById("startersBtn");
 const breakfastBtn = document.getElementById("breakfastBtn");
 const lunchBtn = document.getElementById("lunchBtn");
+const dinnerBtn = document.getElementById("dinnerBtn");
 let menuItems = {};
 
 navLinks.forEach(link => {
@@ -31,14 +32,16 @@ const displayMenu = (course) => {
         const card = document.createElement("div");
         card.classList.add("card");
         card.style.width = "20rem";
+        card.style.height = "25rem";
     
         const cardImg = document.createElement("img");
-        cardImg.classList.add("card-img-top");
+        cardImg.classList.add("card-img-top", "object-fit-cover");
+        cardImg.style.height = "50%"
         cardImg.src = course.img;
         card.append(cardImg);
 
         const cardBody = document.createElement("div");
-        cardBody.classList.add("card-body");
+        cardBody.classList.add("card-body", "d-flex", "flex-column", "justify-content-between");
 
         const cardTitle = document.createElement("h5");
         cardTitle.classList.add("card-title");
@@ -83,6 +86,12 @@ lunchBtn.addEventListener("click", () => {
     });
 })
 
+dinnerBtn.addEventListener("click", () => {
+    getData().then(() => {
+        displayMenu(menuItems.dinner)
+    });
+});
+
 getData().then(() => {
-    displayMenu(menuItems.lunch)
+    displayMenu(menuItems.starters)
 });

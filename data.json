@@ -94,5 +94,37 @@
             "img": "https://img.freepik.com/free-photo/grilled-gourmet-cheeseburger-sesame-seed-bun-generated-by-ai_188544-25972.jpg?t=st=1720437698~exp=1720441298~hmac=769da303c46cb2a648fb05aad60b9a3ff778fd56f45330c4d4096b641e203bc4&w=1380",
             "price": 190
         }
+    ],
+    "dinner": [
+        {
+            "header": "Grilovaný steak s pečenými bramborami",
+            "description": "Šťavnatý hovězí steak grilovaný podle vašeho výběru, podávaný s křupavými pečenými bramborami a sezonní zeleninou.",
+            "img": "https://img.freepik.com/free-photo/grilled-steak-fresh-salad-savory-sauce-plate-generated-by-artificial-intelligence_188544-127009.jpg?t=st=1720441061~exp=1720444661~hmac=d24106ba4599d3b6e61c3aadac3925e8e5adc2c6575fce716fe1261f3188c6a7&w=1380",
+            "price": 320
+        },
+        {
+            "header": "Rizoto s mořskými plody",
+            "description": "Krémové rizoto s čerstvými mořskými plody, bylinkami a parmezánem.",
+            "img": "https://img.freepik.com/free-photo/chinese-fried-steamed-rice-wooden-plate-with-soya-sauce-table_23-2147901670.jpg?t=st=1720441200~exp=1720444800~hmac=b9b77644b57348d07d98f347200f513f6b71cac07b414dc6e5f3cc4e2d64c18d&w=1380",
+            "price": 280
+        },
+        {
+            "header": "Kuřecí stroganoff",
+            "description": "Kuřecí maso dusené se smetanovou omáčkou, hříbkami a servírované s rýží.",
+            "img": "https://img.freepik.com/free-photo/rice-dish-with-sauce-mushrooms_23-2148195600.jpg?t=st=1720441505~exp=1720445105~hmac=cdfcf27d9e5210d1369133112a5924d0aa1a7610d01e3607a7dbfd62c5114016&w=1380",
+            "price": 250
+        },
+        {
+            "header": "Losos na grilu s mangovým salsa",
+            "description": "Grilovaný losos s exotickým mangovým salsa, podávaný s květákovým pyré.",
+            "img": "https://img.freepik.com/free-photo/fried-salmon-served-with-orange-red-rice_140725-2521.jpg?t=st=1720441536~exp=1720445136~hmac=8c5bc3109c4709ecd951039bfe9d73b16207f9d919bfdc7aafaac13a174a82fb&w=1380",
+            "price": 300
+        },
+        {
+            "header": "Vegetariánské sushi",
+            "description": "Různé druhy zeleninového sushi s omáčkou a vločkami wasabi.",
+            "img": "https://img.freepik.com/free-photo/sushi-dish-asian-restaurant_23-2148195586.jpg?t=st=1720441556~exp=1720445156~hmac=227f03d4c24cfb3bbe17843822d09ae52780479dc007b5bc9de6c5b186b3a02f&w=1380",
+            "price": 210
+        }
     ]
 }
