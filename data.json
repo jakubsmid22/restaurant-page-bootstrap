@@ -62,5 +62,37 @@
             "img": "https://img.freepik.com/free-photo/delicious-pancakes-with-bananas_23-2150830494.jpg?t=st=1720437005~exp=1720440605~hmac=3f460139426154c0f4727985b847568a1e9695ead560565003c44d98f76dea75&w=1380",
             "price": 80
         }
+    ],
+    "lunch": [
+        {
+            "header": "Grilovaný losos",
+            "description": "Čerstvý losos grilovaný na bylinkovém másle, podávaný s pečenými bramborami a zeleninovým salátem.",
+            "img": "https://img.freepik.com/premium-photo/baked-salmon-plate_75924-7742.jpg?w=1380",
+            "price": 250
+        },
+        {
+            "header": "Kuřecí Caesar salát",
+            "description": "Křupavé kousky kuřecího masa na ledovém salátu, s parmezánem, krutony a Caesar dresinkem.",
+            "img": "https://img.freepik.com/free-photo/healthy-salad-with-chicken-vegetables_144627-14727.jpg?t=st=1720437620~exp=1720441220~hmac=51523ba9f88b32596fa6de7ff28a4e5701027a743f812186cf8fa27afba1d812&w=1380",
+            "price": 180
+        },
+        {
+            "header": "Špagety Carbonara",
+            "description": "Klasické špagety s krémovou omáčkou, slaninou, vejci a parmezánem.",
+            "img": "https://img.freepik.com/free-photo/ai-generated-pasta-food_23-2150664590.jpg?t=st=1720437647~exp=1720441247~hmac=e234419954a407bab8c03a0041e35c316feac048a242dfd4edeb2bed1b4ecf8e&w=1380",
+            "price": 160
+        },
+        {
+            "header": "Vegetariánské rizoto",
+            "description": "Krémové rizoto s čerstvou zeleninou, parmezánem a bylinkami.",
+            "img": "https://img.freepik.com/free-photo/delicious-meal-table_23-2150857694.jpg?t=st=1720437675~exp=1720441275~hmac=7fde86116c6531ff0d5bf3d177c06c96159cabe704afa2312ae71c13fd2a5c98&w=1380",
+            "price": 140
+        },
+        {
+            "header": "Hovězí burger",
+            "description": "Šťavnatý hovězí burger s čedarem, salátem, rajčetem, okurkou a domácí omáčkou, podávaný s hranolky.",
+            "img": "https://img.freepik.com/free-photo/grilled-gourmet-cheeseburger-sesame-seed-bun-generated-by-ai_188544-25972.jpg?t=st=1720437698~exp=1720441298~hmac=769da303c46cb2a648fb05aad60b9a3ff778fd56f45330c4d4096b641e203bc4&w=1380",
+            "price": 190
+        }
     ]
 }

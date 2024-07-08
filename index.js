@@ -2,6 +2,7 @@ const navLinks = document.querySelectorAll(".nav-link");
 const coursesHTML = document.getElementById("courses");
 const startersBtn = document.getElementById("startersBtn");
 const breakfastBtn = document.getElementById("breakfastBtn");
+const lunchBtn = document.getElementById("lunchBtn");
 let menuItems = {};
 
 navLinks.forEach(link => {
@@ -29,7 +30,6 @@ const displayMenu = (course) => {
         
         const card = document.createElement("div");
         card.classList.add("card");
-        card.style.width = "18rem";
         card.style.width = "20rem";
     
         const cardImg = document.createElement("img");
@@ -77,6 +77,12 @@ breakfastBtn.addEventListener("click", () => {
     });
 })
 
+lunchBtn.addEventListener("click", () => {
+    getData().then(() => {
+        displayMenu(menuItems.lunch)
+    });
+})
+
 getData().then(() => {
-    displayMenu(menuItems.starters)
+    displayMenu(menuItems.lunch)
 });
