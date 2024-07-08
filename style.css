@@ -14,3 +14,18 @@ section {
     position: absolute;
     background: url("https://img.freepik.com/free-photo/penne-pasta-tomato-sauce-with-chicken-tomatoes-wooden-table_2829-19744.jpg?t=st=1720166046~exp=1720169646~hmac=331b60fc9496430f0a807216be2d6fbb6b73a6380f3518b18513b61c5b986a6d&w=1380");
   }
+
+  .course-active {
+    position: relative;
+  }
+
+  .course-active::before {
+    content: "";
+    position: absolute;
+    width: 125px;
+    height: 1px;
+    background-color: red;
+    left: 100px;
+    right: 0;
+    top: 40px;
+  }

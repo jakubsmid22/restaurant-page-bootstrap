@@ -68,28 +68,43 @@ const displayMenu = (course) => {
 
 }
 
+const setActive = (e) => {
+    document.querySelectorAll(".course").forEach(course => {
+        course.classList.remove("course-active");
+    })
+    e.classList.add("course-active");
+}
+
 startersBtn.addEventListener("click", () => {
     getData().then(() => {
         displayMenu(menuItems.starters)
     });
+
+    setActive(startersBtn);
 });
 
 breakfastBtn.addEventListener("click", () => {
     getData().then(() => {
         displayMenu(menuItems.breakfast)
     });
+
+    setActive(breakfastBtn);
 })
 
 lunchBtn.addEventListener("click", () => {
     getData().then(() => {
         displayMenu(menuItems.lunch)
     });
+
+    setActive(lunchBtn);
 })
 
 dinnerBtn.addEventListener("click", () => {
     getData().then(() => {
         displayMenu(menuItems.dinner)
     });
+
+    setActive(dinnerBtn);
 });
 
 getData().then(() => {
